@@ -1,0 +1,17 @@
+arreglo [8] de entero cifra
+entero n
+inicio
+	cifra [1]<-1
+	cifra [2]<-2
+	cifra [5]<-3
+	cifra [3]<-4
+	cifra [4]<-5
+	cifra [8]<-6
+	cifra [6]<-7
+	cifra [7]<-9
+	cifra [9]<-8
+		para n<-1 hasta 8 haga
+			escriba cifra [n]
+			llamar nueva_linea
+		fin para
+fin

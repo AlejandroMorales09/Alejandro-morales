@@ -1,0 +1,43 @@
+arreglo [8] de entero datoa 
+arreglo [8] de real datob
+arreglo [8] de cadena [30] cifra
+arreglo [8] de caracter datoc
+entero n
+inicio
+	escriba "Ingrese 8 numeros enteros: "
+	llamar nueva_linea
+		para n<-1 hasta 8 haga
+			lea datoa[n]
+		fin para
+		para n<-1 hasta 8 haga
+			escriba datoa[n]
+			llamar nueva_linea
+		fin para
+	escriba "Ingrese 8 numeros reales: "
+	llamar nueva_linea
+		para n<-1 hasta 8 haga
+			lea datob[n]
+		fin para
+		para n<-1 hasta 8 haga
+			escriba datob[n]
+			llamar nueva_linea
+		fin para
+	escriba "Ingrese 8 cadenas de caracteres inferiores a 30: "
+	llamar nueva_linea
+		para n<-1 hasta 8 haga
+			lea cifra[n]
+		fin para
+		para n<-1 hasta 8 haga
+			escriba cifra[n]
+			llamar nueva_linea
+		fin para
+	escriba "Ingrese 8 caracteres: "
+	llamar nueva_linea
+		para n<-1 hasta 8 haga
+			lea datoc[n]
+		fin para
+		para n<-1 hasta 8 haga
+			escriba datoc[n]
+			llamar nueva_linea
+		fin para
+fin

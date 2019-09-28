@@ -1,0 +1,60 @@
+arreglo [8] de entero datoa 
+arreglo [8] de real datob
+arreglo [8] de cadena [30] cifra
+arreglo [8] de caracter datoc
+entero n,a 
+caracter respuesta
+inicio
+repita
+		//a<-0
+//	repita
+		escriba "Ingrese 8 numeros enteros: "
+		llamar nueva_linea
+			para n<-1 hasta 2 haga
+				lea datoa[n]
+			para n<-1 hasta 2 haga
+				escriba datoa[n]
+				llamar nueva_linea
+			fin para
+			fin para
+		escriba "Ingrese 8 numeros reales: "
+		llamar nueva_linea
+			para n<-1 hasta 2 haga
+				lea datob[n]
+			para n<-1 hasta 2 haga
+				escriba datob[n]
+				llamar nueva_linea
+			fin para
+			fin para
+		escriba "Ingrese 8 cadenas de caracteres inferiores a 30: "
+		llamar nueva_linea
+			para n<-1 hasta 2 haga
+				lea cifra[n]
+			para n<-1 hasta 2 haga
+				escriba cifra[n]
+				llamar nueva_linea
+			fin para
+			fin para
+		escriba "Ingrese 8 caracteres: "
+		llamar nueva_linea
+			para n<-1 hasta 2 haga
+				lea datoc[n]
+			para n<-1 hasta 2 haga
+				escriba datoc[n]
+				llamar nueva_linea
+			fin para
+			fin para
+			para n<-1 hasta 2 haga
+				escriba datoa[n]
+				escriba datob[n]
+				escriba datoc[n]
+				escriba cifra[n]
+	//	a<-a+1
+		escriba "¿Desea continuar? N/n para  no"
+		lea respuesta
+	hasta (respuesta='N')o(respuesta='n')
+	/*
+llamar nueva_linea
+lea respuesta
+hasta (respuesta='n') o (respuesta='N')
+FIN

@@ -1,0 +1,18 @@
+arreglo [2,4] de cadena [4] nombres
+entero filas,columnas
+inicio
+	nombres [1,1]<-"Rumalia"
+	nombres [1,3]<-"Anacleta"
+	nombres [1,4]<-"Mirolindo"
+	nombres [2,1]<-"Amistades"
+	nombres [2,2]<-"Sarrazito"
+	nombres [2,3]<-"Nomalias"
+	nombres [2,3]<-"Geremias"
+	para filas<-1 hasta 2 haga
+		para columnas<-1 hasta 4 haga
+			escriba nombres[filas,columnas]
+			llamar nueva_linea
+		fin para
+		llamar nueva_linea
+	fin para
+fin
